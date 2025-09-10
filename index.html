@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Hello World</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-</body>
+<script src="https://mfpembedcdnweu.azureedge.net/mfpembedcontweu/Embed.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="https://mfpembedcdnweu.azureedge.net/mfpembedcontweu/Embed.css" /><script type = "text/javascript" >function renderSurvey(parentElementId,FirstName, LastName, ProductPage){var se = new SurveyEmbed("Xz2qfAWDVEy4kdSewtpv1xwheHLHwspNrXhwkj-9yaBURFBOUlAxM0NGNjAxMEY3S0k2T0E3WUtKRS4u","https://customervoice.microsoft.com/","https://mfpembedcdnweu.azureedge.net/mfpembedcontweu/","true");var context = {"First Name": FirstName,"Last Name": LastName,"ProductPage": ProductPage,};se.renderInline(parentElementId, context);}</script>
+
+<center>
+<div id="surveyDiv" style="height: 700px; width:600px; margin-left:auto; margin-right:auto">
+<script>
+ window.addEventListener('load', function () {
+ renderSurvey("surveyDiv","Lead","Capture","Product A");
+ }, false);
+ </script>
+ </div>
+</center>
 </html>
+
